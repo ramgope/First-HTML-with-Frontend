@@ -1,8 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    background: #cafdff;
+}
+
+.top-logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 16px;
+}
+
+a {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* =================== */
+
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.header-details {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    padding: 16px 0 24px 0;
+}
+
+button {
+    background-color: #05c7c5;
+    color: white;
+    padding: 8px 16px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* ========== Header Section Ended ========== */
+
+
+/* ========== About Section Started ========== */
+
+#about{
+    padding: 48px 0;
+    background: #f8ffdc;
+}
+
+h2{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.about__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__description--wrapper{
+    width: 60%;
+    padding: 0 24px;
+}
+
+.about__description--para{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.about__img--wrapper{
+    width: 40%;
+    padding: 0 24px;
+}
+
+img{
+    width: 100%;
+}
+
+/* ========== About Section Ended ========== */
+
+/* ========== Discord Section Started ========== */
+
+#discord{
+    background-color: #cefeff;
+    padding: 48px 0;
+}
+
+/* ========== Discord Section Ended ========== */
+
+/* ========== Contact Section Started ========== */
+
+#contact{
+    padding: 0 48px;
+}
+
+/* ========== Contact Section Ended ========== */

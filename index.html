@@ -11,7 +11,7 @@
 <body>
     <section>
         <nav>
-            <img src="images/FES.svg" alt="FES logo">
+            <img class="top-logo" src="images/FES.svg" alt="FES logo">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
@@ -19,49 +19,68 @@
             </ul>
         </nav>
 
+        <!-- ========== Header Section Started ========== -->
         <header>
-            <div>
-                <h1>Best Place To Learn Frontend</h1>
-                <p>Go from absolute beginner to pro with a simplified process</p>
-                <button>Start Now</button>
-            </div>
-            <figure>
-                <img src="images/laptop.png" alt="Home page Laptop Img">
-            </figure>
+            <section class="header-details">
+                <div>
+                    <h1>Best Place To Learn Frontend</h1>
+                    <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+                    <button>Start Now</button>
+                </div>
+                <figure>
+                    <img src="images/laptop.png" alt="Home page Laptop Img">
+                </figure>
+            </section>
         </header>
+        <!-- ========== Header Section Ended ========== -->
     </section>
 
+    <!-- ========== About Section Started ========== -->
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>You must learn HTML first and then CSS, and then go for Javascript. It is required to learn Html, CSS, and Javascript in
-                this order only as they are built on each other in this order only. We can say that HTML defines the content, CSS
-                defines the layout, and Javascript defines the behavior of the web page.</p>
-                <p>HTML and CSS are excellent tools for getting started with development because they are core web development languages.
-                This is due to the fact that these easy-to-learn languages provide straightforward sets of rules that describe how to
-                code.</p>
-            </div>
-            <figure>
-                <img src="images/about.jpg" alt="about image">
-            </figure>
+            <aside class="about__description">
+                <div class="about__description--wrapper">
+                    <p class="about__description--para">You must learn HTML first and then CSS, and then go for Javascript. It is required to learn Html,
+                        CSS, and Javascript in
+                        this order only as they are built on each other in this order only. We can say that HTML defines
+                        the
+                        content, CSS
+                        defines the layout, and Javascript defines the behavior of the web page.</p>
+                    <p class="about__description--para">HTML and CSS are excellent tools for getting started with development because they are core web
+                        development languages.
+                        This is due to the fact that these easy-to-learn languages provide straightforward sets of rules
+                        that describe how to
+                        code.</p>
+                </div>
+                <figure class="about__img--wrapper">
+                    <img src="images/about.jpg" alt="about image">
+                </figure>
+            </aside>
         </section>
+        <!-- ========== About Section Ended ========== -->
 
+        <!-- ========== Discord Section Started ========== -->
         <section id="discord">
             <h2>Discord</h2>
             <figure>
                 <img src="images/discord.png" alt="discord image">
             </figure>
             <div>
-                <p>The first website ever created was a simple web page created by Tim Berners-Lee and was dedicated to providing
-                information about the World Wide Web project. It went live on August 6, 1991, and its address was
-                http://info.cern.ch/hypertext/WWW/TheProject.html.</p>
-                <p>To host your own website, you'll need to register a domain name, choose a web hosting provider, and then either create
-                your website using a website builder or CMS like WordPress, or code it from scratch. You'll then need to configure your
-                domain to point to your host's server and upload your website files.</p>
+                <p>The first website ever created was a simple web page created by Tim Berners-Lee and was dedicated to
+                    providing
+                    information about the World Wide Web project. It went live on August 6, 1991, and its address was
+                    http://info.cern.ch/hypertext/WWW/TheProject.html.</p>
+                <p>To host your own website, you'll need to register a domain name, choose a web hosting provider, and
+                    then either create
+                    your website using a website builder or CMS like WordPress, or code it from scratch. You'll then
+                    need to configure your
+                    domain to point to your host's server and upload your website files.</p>
             </div>
         </section>
+        <!-- ========== Discord Section Ended ========== -->
 
+        <!-- ========== Contact Section Started ========== -->
         <section id="contact">
             <h2>Contact</h2>
             <form action="">
@@ -72,7 +91,10 @@
             </form>
             <button>Submit</button>
         </section>
+        <!-- ========== Contact Section Ended ========== -->
     </main>
+
+    <!-- ========== Footer Section Started ========== -->
     <footer>
         <img src="images/FES.svg" alt="footer image">
         <ul>
@@ -83,6 +105,7 @@
         </ul>
         <p>Copyright &copy; FrontEnd Simplified</p>
     </footer>
+    <!-- ========== Footer Section Ended ========== -->
 </body>
 
 </html>
