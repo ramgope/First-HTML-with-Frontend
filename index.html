@@ -21,7 +21,7 @@
 
         <!-- ========== Header Section Started ========== -->
         <header>
-            <section class="header-details">
+            <section class="row">
                 <div>
                     <h1>Best Place To Learn Frontend</h1>
                     <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
@@ -39,43 +39,62 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <aside class="about__description">
-                <div class="about__description--wrapper">
-                    <p class="about__description--para">You must learn HTML first and then CSS, and then go for Javascript. It is required to learn Html,
-                        CSS, and Javascript in
-                        this order only as they are built on each other in this order only. We can say that HTML defines
-                        the
-                        content, CSS
-                        defines the layout, and Javascript defines the behavior of the web page.</p>
-                    <p class="about__description--para">HTML and CSS are excellent tools for getting started with development because they are core web
-                        development languages.
-                        This is due to the fact that these easy-to-learn languages provide straightforward sets of rules
-                        that describe how to
-                        code.</p>
+            <div class="row">
+                <div class="about__description">
+                    <div class="about__description--wrapper">
+                        <p class="about__description--para">You must learn HTML first and then CSS, and then go for
+                            Javascript. It is required to learn Html,
+                            CSS, and Javascript in
+                            this order only as they are built on each other in this order only. We can say that HTML
+                            defines
+                            the
+                            content, CSS
+                            defines the layout, and Javascript defines the behavior of the web page.</p>
+                        <p class="about__description--para">HTML and CSS are excellent tools for getting started with
+                            development because they are core web
+                            development languages.
+                            This is due to the fact that these easy-to-learn languages provide straightforward sets of
+                            rules
+                            that describe how to
+                            code.</p>
+                    </div>
+                    <figure class="about__img--wrapper">
+                        <img src="images/about.jpg" alt="about image">
+                    </figure>
                 </div>
-                <figure class="about__img--wrapper">
-                    <img src="images/about.jpg" alt="about image">
-                </figure>
-            </aside>
+            </div>
         </section>
         <!-- ========== About Section Ended ========== -->
 
         <!-- ========== Discord Section Started ========== -->
         <section id="discord">
             <h2>Discord</h2>
-            <figure>
-                <img src="images/discord.png" alt="discord image">
-            </figure>
-            <div>
-                <p>The first website ever created was a simple web page created by Tim Berners-Lee and was dedicated to
-                    providing
-                    information about the World Wide Web project. It went live on August 6, 1991, and its address was
-                    http://info.cern.ch/hypertext/WWW/TheProject.html.</p>
-                <p>To host your own website, you'll need to register a domain name, choose a web hosting provider, and
-                    then either create
-                    your website using a website builder or CMS like WordPress, or code it from scratch. You'll then
-                    need to configure your
-                    domain to point to your host's server and upload your website files.</p>
+            <div class="row">
+                <div class="about__description">
+                    <figure class="about__img--wrapper">
+                        <img src="images/discord.png" alt="discord image">
+                    </figure>
+                    <div class="about__description--wrapper">
+                        <p class="about__description--para">The first website ever created was a simple web page created
+                            by
+                            Tim Berners-Lee and was dedicated
+                            to
+                            providing
+                            information about the World Wide Web project. It went live on August 6, 1991, and its
+                            address
+                            was
+                            http://info.cern.ch/hypertext/WWW/TheProject.html.</p>
+                        <p class="about__description--para">To host your own website, you'll need to register a domain
+                            name,
+                            choose a web hosting provider,
+                            and
+                            then either create
+                            your website using a website builder or CMS like WordPress, or code it from scratch. You'll
+                            then
+                            need to configure your
+                            domain to point to your host's server and upload your website files.</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- ========== Discord Section Ended ========== -->
@@ -88,21 +107,22 @@
                 <input type="email" placeholder="your.email@gmail.com" id="">
                 <span>Message</span>
                 <textarea placeholder="Nice Website, Let's Connect!" id=""></textarea>
+                <button>Submit</button>
             </form>
-            <button>Submit</button>
         </section>
         <!-- ========== Contact Section Ended ========== -->
     </main>
 
     <!-- ========== Footer Section Started ========== -->
     <footer>
-        <img src="images/FES.svg" alt="footer image">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#discord">Discord</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#courses">Courses</a></li>
-        </ul>
+        <img class="footer__logo" src="images/FES.svg" alt="footer image">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="#courses">Courses</a>
+            </ul>
+        </div>
         <p>Copyright &copy; FrontEnd Simplified</p>
     </footer>
     <!-- ========== Footer Section Ended ========== -->
